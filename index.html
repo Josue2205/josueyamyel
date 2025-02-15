@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una Aventura de Amor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="letter">
+            <div class="letter-front" id="letter-front">Abrir Carta 💌</div>
+            <div class="letter-content" id="letter-content">
+                <div class="scene active" id="welcome">
+                    <h1>Hola, Amyel 💖</h1>
+                    <p>Tal vez las cosas no han sido perfectas, pero mi amor por ti sigue intacto. 
+                       Quiero que sepas que te espero, con paciencia y amor, 
+                       de la mano de Dios, luchando por lo nuestro.</p>
+                    <button class="btn next-btn">Siguiente</button>
+                </div>
+
+                <div class="scene" id="gallery">
+                    <h2>Para Ti, Con Amor 💌</h2>
+                    <div class="image-gallery">
+                        <div class="image-container"><img src="img/UNI.jpg" alt="Lo siento, te amo"></div>
+                        <div class="image-container"><img src="img/CUATRO.jpg" alt="Te esperaré siempre"></div>
+                        <div class="image-container"><img src="img/DOS.jpg" alt="Juntos de la mano de Dios"></div>
+                        <div class="image-container"><img src="img/CINCO.jpg" alt="Eres mi felicidad"></div>
+                        <div class="image-container"><img src="img/TRES.jpg" alt="Siempre en mi corazón"></div>
+                        <div class="image-container"><img src="img/SEIS.jpg" alt="Nuestros recuerdos son eternos"></div>
+                        <div class="image-container"><img src="img/SIETE.jpg" alt="Nuestros recuerdos son eternos"></div>
+                        <div class="image-container"><img src="img/OCHO.jpg" alt="Nuestros recuerdos son eternos"></div>
+                        <div class="image-container"><img src="img/NUEVE.jpg" alt="Nuestros recuerdos son eternos"></div>
+                    </div>
+                    <button class="btn next-btn">Siguiente</button>
+                </div>
+
+                <div class="scene" id="account-request">
+                    <h2>Siempre en mi corazón 💖</h2>
+                    <p>Tal vez no es nuestro mejor momento, pero siempre te llevo en el corazón y en mis oraciones. </p>
+                    <p>Por favor, ¿me podrías ayudar con el número de cuenta para el retiro mañana?</p>
+                    <button class="btn next-btn">Siguiente</button>
+                </div>
+
+                <div class="scene" id="final-question">
+                    <h2>La gran pregunta 💌</h2>
+                    <p>Y ahora, finalmente, llegamos al momento más importante...</p>
+                    <h3>Amyel, ¿quieres ser mi 14 de febrero?, talvez ya se acabo pero recuerda que mi mente y corazón estuvieron pensando en ti y pidiendote perdón asi mismo extrañandote mucho 💕</h3>
+                    <div class="buttons">
+                        <button class="answer-btn" id="yes-btn">¡Sí, con todo mi corazón! 💖</button>
+                        <button class="answer-btn" id="no-btn">No, pero gracias 😔</button>
+                    </div>
+                </div>
+
+                <div class="scene" id="final-message" style="display: none;">
+                    <h2>Siempre en mi corazón 💖</h2>
+                    <p>No importa el destino, siempre llevaré tu sonrisa en mi corazón. 
+                       Gracias por haber sido parte de mi historia. 💫</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
